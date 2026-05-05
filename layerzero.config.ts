@@ -50,9 +50,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(10),
                         requiredDVNs: [
-                            contractsConfig.base.stargateDVN,
-                            contractsConfig.base.lzDVN,
-                            contractsConfig.base.polyhedraDVN,
+                            contractsConfig.base.canary,
+                            contractsConfig.base.deutscheTelekom,
+                            contractsConfig.base.horizen,
                         ],
                     },
                 },
@@ -60,9 +60,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(15),
                         requiredDVNs: [
-                            contractsConfig.base.stargateDVN,
-                            contractsConfig.base.lzDVN,
-                            contractsConfig.base.polyhedraDVN,
+                            contractsConfig.base.canary,
+                            contractsConfig.base.deutscheTelekom,
+                            contractsConfig.base.horizen,
                         ],
                     },
                 },
@@ -84,9 +84,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(15),
                         requiredDVNs: [
-                            contractsConfig.ethereum.stargateDVN,
-                            contractsConfig.ethereum.lzDVN,
-                            contractsConfig.ethereum.polyhedraDVN,
+                            contractsConfig.ethereum.canary,
+                            contractsConfig.ethereum.deutscheTelekom,
+                            contractsConfig.ethereum.horizen,
                         ],
                     },
                 },
@@ -94,9 +94,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(10),
                         requiredDVNs: [
-                            contractsConfig.ethereum.stargateDVN,
-                            contractsConfig.ethereum.lzDVN,
-                            contractsConfig.ethereum.polyhedraDVN,
+                            contractsConfig.ethereum.canary,
+                            contractsConfig.ethereum.deutscheTelekom,
+                            contractsConfig.ethereum.horizen,
                         ],
                     },
                 },
@@ -119,9 +119,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(10),
                         requiredDVNs: [
-                            contractsConfig.base.stargateDVN,
-                            contractsConfig.base.lzDVN,
-                            contractsConfig.base.polyhedraDVN,
+                            contractsConfig.base.canary,
+                            contractsConfig.base.deutscheTelekom,
+                            contractsConfig.base.horizen,
                         ],
                     },
                 },
@@ -129,9 +129,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(20),
                         requiredDVNs: [
-                            contractsConfig.base.stargateDVN,
-                            contractsConfig.base.lzDVN,
-                            contractsConfig.base.polyhedraDVN,
+                            contractsConfig.base.canary,
+                            contractsConfig.base.deutscheTelekom,
+                            contractsConfig.base.horizen,
                         ],
                     },
                 },
@@ -153,9 +153,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(20),
                         requiredDVNs: [
-                            contractsConfig.arbitrum.stargateDVN,
-                            contractsConfig.arbitrum.lzDVN,
-                            contractsConfig.arbitrum.polyhedraDVN,
+                            contractsConfig.arbitrum.canary,
+                            contractsConfig.arbitrum.deutscheTelekom,
+                            contractsConfig.arbitrum.horizen,
                         ],
                     },
                 },
@@ -163,9 +163,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(10),
                         requiredDVNs: [
-                            contractsConfig.arbitrum.stargateDVN,
-                            contractsConfig.arbitrum.lzDVN,
-                            contractsConfig.arbitrum.polyhedraDVN,
+                            contractsConfig.arbitrum.canary,
+                            contractsConfig.arbitrum.deutscheTelekom,
+                            contractsConfig.arbitrum.horizen,
                         ],
                     },
                 },
@@ -188,9 +188,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(10),
                         requiredDVNs: [
-                            contractsConfig.base.stargateDVN,
-                            contractsConfig.base.lzDVN,
-                            contractsConfig.base.nethermindDVN,
+                            contractsConfig.base.canary,
+                            contractsConfig.base.horizen,
+                            contractsConfig.base.nethermind,
                         ],
                     },
                 },
@@ -198,9 +198,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(21),
                         requiredDVNs: [
-                            contractsConfig.base.stargateDVN,
-                            contractsConfig.base.lzDVN,
-                            contractsConfig.base.nethermindDVN,
+                            contractsConfig.base.canary,
+                            contractsConfig.base.horizen,
+                            contractsConfig.base.nethermind,
                         ],
                     },
                 },
@@ -222,9 +222,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(21),
                         requiredDVNs: [
-                            contractsConfig.degen.stargateDVN,
-                            contractsConfig.degen.lzDVN,
-                            contractsConfig.degen.nethermindDVN,
+                            contractsConfig.degen.canary,
+                            contractsConfig.degen.horizen,
+                            contractsConfig.degen.nethermind,
                         ],
                     },
                 },
@@ -232,9 +232,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(10),
                         requiredDVNs: [
-                            contractsConfig.degen.stargateDVN,
-                            contractsConfig.degen.lzDVN,
-                            contractsConfig.degen.nethermindDVN,
+                            contractsConfig.degen.canary,
+                            contractsConfig.degen.horizen,
+                            contractsConfig.degen.nethermind,
                         ],
                     },
                 },
@@ -257,9 +257,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(15),
                         requiredDVNs: [
-                            contractsConfig.ethereum.stargateDVN,
-                            contractsConfig.ethereum.lzDVN,
-                            contractsConfig.ethereum.polyhedraDVN,
+                            contractsConfig.ethereum.canary,
+                            contractsConfig.ethereum.deutscheTelekom,
+                            contractsConfig.ethereum.horizen,
                         ],
                     },
                 },
@@ -267,9 +267,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(20),
                         requiredDVNs: [
-                            contractsConfig.ethereum.stargateDVN,
-                            contractsConfig.ethereum.lzDVN,
-                            contractsConfig.ethereum.polyhedraDVN,
+                            contractsConfig.ethereum.canary,
+                            contractsConfig.ethereum.deutscheTelekom,
+                            contractsConfig.ethereum.horizen,
                         ],
                     },
                 },
@@ -291,9 +291,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(20),
                         requiredDVNs: [
-                            contractsConfig.arbitrum.stargateDVN,
-                            contractsConfig.arbitrum.lzDVN,
-                            contractsConfig.arbitrum.polyhedraDVN,
+                            contractsConfig.arbitrum.canary,
+                            contractsConfig.arbitrum.deutscheTelekom,
+                            contractsConfig.arbitrum.horizen,
                         ],
                     },
                 },
@@ -301,9 +301,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(15),
                         requiredDVNs: [
-                            contractsConfig.arbitrum.stargateDVN,
-                            contractsConfig.arbitrum.lzDVN,
-                            contractsConfig.arbitrum.polyhedraDVN,
+                            contractsConfig.arbitrum.canary,
+                            contractsConfig.arbitrum.deutscheTelekom,
+                            contractsConfig.arbitrum.horizen,
                         ],
                     },
                 },
@@ -326,9 +326,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(15),
                         requiredDVNs: [
-                            contractsConfig.ethereum.stargateDVN,
-                            contractsConfig.ethereum.lzDVN,
-                            contractsConfig.ethereum.nethermindDVN,
+                            contractsConfig.ethereum.canary,
+                            contractsConfig.ethereum.horizen,
+                            contractsConfig.ethereum.nethermind,
                         ],
                     },
                 },
@@ -336,9 +336,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(21),
                         requiredDVNs: [
-                            contractsConfig.ethereum.stargateDVN,
-                            contractsConfig.ethereum.lzDVN,
-                            contractsConfig.ethereum.nethermindDVN,
+                            contractsConfig.ethereum.canary,
+                            contractsConfig.ethereum.horizen,
+                            contractsConfig.ethereum.nethermind,
                         ],
                     },
                 },
@@ -360,9 +360,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(21),
                         requiredDVNs: [
-                            contractsConfig.degen.stargateDVN,
-                            contractsConfig.degen.lzDVN,
-                            contractsConfig.degen.nethermindDVN,
+                            contractsConfig.degen.canary,
+                            contractsConfig.degen.horizen,
+                            contractsConfig.degen.nethermind,
                         ],
                     },
                 },
@@ -370,9 +370,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(15),
                         requiredDVNs: [
-                            contractsConfig.degen.stargateDVN,
-                            contractsConfig.degen.lzDVN,
-                            contractsConfig.degen.nethermindDVN,
+                            contractsConfig.degen.canary,
+                            contractsConfig.degen.horizen,
+                            contractsConfig.degen.nethermind,
                         ],
                     },
                 },
@@ -395,9 +395,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(20),
                         requiredDVNs: [
-                            contractsConfig.arbitrum.stargateDVN,
-                            contractsConfig.arbitrum.lzDVN,
-                            contractsConfig.arbitrum.nethermindDVN,
+                            contractsConfig.arbitrum.canary,
+                            contractsConfig.arbitrum.horizen,
+                            contractsConfig.arbitrum.nethermind,
                         ],
                     },
                 },
@@ -405,9 +405,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(21),
                         requiredDVNs: [
-                            contractsConfig.arbitrum.stargateDVN,
-                            contractsConfig.arbitrum.lzDVN,
-                            contractsConfig.arbitrum.nethermindDVN,
+                            contractsConfig.arbitrum.canary,
+                            contractsConfig.arbitrum.horizen,
+                            contractsConfig.arbitrum.nethermind,
                         ],
                     },
                 },
@@ -429,9 +429,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(21),
                         requiredDVNs: [
-                            contractsConfig.degen.stargateDVN,
-                            contractsConfig.degen.lzDVN,
-                            contractsConfig.degen.nethermindDVN,
+                            contractsConfig.degen.canary,
+                            contractsConfig.degen.horizen,
+                            contractsConfig.degen.nethermind,
                         ],
                     },
                 },
@@ -439,9 +439,9 @@ const config: OAppOmniGraphHardhat = {
                     ulnConfig: {
                         confirmations: BigInt(20),
                         requiredDVNs: [
-                            contractsConfig.degen.stargateDVN,
-                            contractsConfig.degen.lzDVN,
-                            contractsConfig.degen.nethermindDVN,
+                            contractsConfig.degen.canary,
+                            contractsConfig.degen.horizen,
+                            contractsConfig.degen.nethermind,
                         ],
                     },
                 },
