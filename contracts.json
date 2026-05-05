@@ -1,35 +1,25 @@
 {
   "ethereum": {
-    "executor": "0x173272739Bd7Aa6e4e214714048a9fE699453059",
-    "sendLib302": "0xbB2Ea70C9E858123480642Cf96acbcCE1372dCe1",
-    "receiveLib302": "0xc02Ab410f0734EFa3F14628780e6e695156024C2",
-    "lzDVN": "0x589dEDbD617e0CBcB916A9223F4d1300c294236b",
-    "polyhedraDVN": "0x8ddF05F9A5c488b4973897E278B58895bF87Cb24",
-    "horizenDVN": "0x380275805876Ff19055EA900CDb2B46a94ecF20D",
-    "animocaBlockdaemonDVN": "0x7E65BDd15C8Db8995F80aBf0D6593b57dc8BE437",
-    "nethermindDVN": "0xa59ba433ac34d2927232918ef5b2eaafcf130ba5",
-    "stargateDVN": "0x8fafae7dd957044088b3d0f67359c327c6200d18"
+    "canary": "0xa4fe5a5b9a846458a70cd0748228aed3bf65c2cd",
+    "deutscheTelekom": "0x373a6e5c0c4e89e24819f00aa37ea370917aaff4",
+    "horizen": "0x380275805876ff19055ea900cdb2b46a94ecf20d",
+    "nethermind": "0xa59ba433ac34d2927232918ef5b2eaafcf130ba5"
   },
   "arbitrum": {
-    "executor": "0x31CAe3B7fB82d847621859fb1585353c5720660D",
-    "sendLib302": "0x975bcD720be66659e3EB3C0e4F1866a3020E493A",
-    "receiveLib302": "0x7B9E184e07a6EE1aC23eAe0fe8D6Be2f663f05e6",
-    "lzDVN": "0x2f55C492897526677C5B68fb199ea31E2c126416",
-    "polyhedraDVN": "0x8ddF05F9A5c488b4973897E278B58895bF87Cb24",
-    "horizenDVN": "0x19670Df5E16bEa2ba9b9e68b48C054C5bAEa06B8",
-    "animocaBlockdaemonDVN": "0xddaa92ce2d2faC3f7c5eae19136E438902Ab46cc",
-    "nethermindDVN": "0xa7b5189bca84cd304d8553977c7c614329750d99",
-    "stargateDVN": "0x5756a74e8e18d8392605ba667171962b2b2826b5"
+    "canary": "0xf2e380c90e6c09721297526dbc74f870e114dfcb",
+    "deutscheTelekom": "0xeae839784e5f6c79bbaf34b6023a2f62e134ab39",
+    "horizen": "0x19670df5e16bea2ba9b9e68b48c054c5baea06b8",
+    "nethermind": "0xa7b5189bca84cd304d8553977c7c614329750d99"
   },
   "base": {
-    "lzDVN": "0x9e059a54699a285714207b43b055483e78faac25",
-    "polyhedraDVN": "0x8ddF05F9A5c488b4973897E278B58895bF87Cb24",
-    "nethermindDVN": "0xcd37ca043f8479064e10635020c65ffc005d36f6",
-    "stargateDVN": "0xcdf31d62140204c08853b547e64707110fbc6680"
+    "canary": "0x554833698ae0fb22ecc90b01222903fd62ca4b47",
+    "deutscheTelekom": "0xc2a0c36f5939a14966705c7cec813163faeea1f0",
+    "horizen": "0xa7b5189bca84cd304d8553977c7c614329750d99",
+    "nethermind": "0xcd37ca043f8479064e10635020c65ffc005d36f6"
   },
   "degen": {
-    "lzDVN": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
-    "nethermindDVN": "0x8d77d35604a9f37f488e41d1d916b2a0088f82dd",
-    "stargateDVN": "0x80442151791bbdd89117719e508115ebc1ce2d93"
+    "canary": "0xf10ea2c0d43bc4973cfbcc94ebafc39d1d4af118",
+    "horizen": "0x01a998260da061efb9a85b26d42f8f8662bf3d5f",
+    "nethermind": "0x8d77d35604a9f37f488e41d1d916b2a0088f82dd"
   }
 }
